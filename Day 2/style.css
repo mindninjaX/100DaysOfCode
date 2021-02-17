@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+header{
+    padding-left: 650px;
+}
+
+.logo {
+    height: 60px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+h1{
+    color: #1ED761;
+    font-family: 'Raleway', sans-serif;;
+    font-size: 60px;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;;
+    font-size: 30px;
+}
+
+.playlist {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.playlist > div {
+    margin-right: 20px;
+}
+
+div img {
+    height: 200px;
+    padding-bottom: 0px;
+}
+
+div p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    padding-top: 0px;
+}
