@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: yellow;
+    width: 100%;
+
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+
+
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+section{
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.2em;
+}
+
+h2{
+    font-family:'Gloria Hallelujah', cursive;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+img {
+    height: 10em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    transition: all 1s;
+    border: #FFC83D solid 0.3em;
+}
+
+img:hover {
+    transform: scale(2);
+}

@@ -3,16 +3,18 @@ body {
 }
 
 header{
-    padding-left: 650px;
-}
-
-.logo {
-    height: 60px;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
-h1{
+#logo {
+    height: 70px;
+    margin-right: 10px;
+}
+
+h1 {
     color: #1ED761;
     font-family: 'Raleway', sans-serif;;
     font-size: 60px;
@@ -42,5 +44,4 @@ div p {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
-    padding-top: 0px;
 }
