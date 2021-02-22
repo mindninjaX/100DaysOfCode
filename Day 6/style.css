@@ -1,0 +1,104 @@
+body {
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  width: auto;
+  height: 4rem;
+  background-color: cornflowerblue;
+  margin: 0%;
+  padding: 2rem;
+
+  color: white;
+  font-size: 3em;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 0.5rem;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  margin-top: 2em;
+
+  font-size: 2em;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: "Staatliches", cursive;
+  letter-spacing: 0.3rem;
+}
+
+input {
+    /* width: 7em; */
+  font-size: 3rem;
+  border-radius: 0.5rem;
+  border-color: cornflowerblue;
+  text-align: center;
+
+  /* margin-top: 2em; */
+  margin-bottom: 0.5em;
+}
+
+div {
+  /* width: ; */
+  display: flex;
+  justify-content: space-evenly;
+
+  /* border: cornflowerblue 3px solid; */
+}
+
+button {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  background-color: cornflowerblue;
+  border: none;
+  padding: 1em;
+  border-radius: 0.5rem;
+
+  color: white;
+  font-size: 1.5rem;
+
+  display: flex;
+  flex-direction: row;
+  transition: all 0.1s;
+}
+
+button:hover {
+  color: cornflowerblue;
+  border: cornflowerblue solid 1px;
+  background: #fff;
+}
+
+#dans {
+    width: 7em;
+    /* height: 5em; */
+    /* height: 1em; */
+    /* background-color: cornflowerblue; */
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+
+    color: white;
+    font-size: 4rem;
+}
+
+#ans {
+    color: cornflowerblue;
+    font-size: 4rem;
+
+    margin-top: 1rem;
+}
