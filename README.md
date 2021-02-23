@@ -21,3 +21,4 @@ we have started to learn from very basic to understand each and every inside of 
 | 4   | Bootstrap <br> Using website templates <br> Mailchimp Implementation <br> Deploying on GitHub Pages | [Adventure Blog](https://100daysofcode-day4.netlify.app/) |
 | 5   | CSS Grid <br> CSS Layout | [Emoji Grid](https://100daysofcode-day5.netlify.app/) |
 | 6   | Developer Fundamentals <br> Basics of JavaScript | [Fahrenheit - Celsius Converter](https://100daysofcode-day6.netlify.app/) |
+| 7   | More JavaScript | [Random Quote Generator](https://100daysofcode-day7.netlify.app/) |

@@ -1,0 +1,81 @@
+body {
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: lightcoral;
+
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3em;
+}
+
+header > span {
+  font-family: 'Pacifico', cursive;
+}
+
+section {
+  margin: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 3rem;
+  border: lightcoral 1px solid;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  background-color: lightcoral;
+
+  color: white;
+  font-size: 1rem;
+
+  transition: all 0.2s;
+}
+
+button:hover {
+  border-color: lightcoral;
+  color: lightcoral;
+  background-color: white;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.mark {
+  color: lightcoral;
+  font-size: 15em;
+  font-family: 'Passion One', cursive;
+  margin-right: 1rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  color: cornflowerblue;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2em;
+  width: 16em;
+}
+
+.author {
+  color: lightcoral;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
