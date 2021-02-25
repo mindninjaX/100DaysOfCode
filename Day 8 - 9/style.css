@@ -1,0 +1,90 @@
+body {
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+header {
+  width: 100%;
+  background-color: #E44332;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.2rem;
+}
+
+img {
+  height: 3em;
+  border-radius: 0.3rem;
+}
+
+
+section {
+  margin-top: 5em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type="text"] {
+  width: 20rem;
+  font-size: 2rem;
+  border-radius: 0.3rem;
+}
+
+button {
+  margin: 1em;
+  padding: 1rem;
+  width: 6em;
+
+  background-color: #E44332;
+  border: 1px solid;
+  border-radius: 0.4rem;
+
+  color: white;
+  font-size: 1.5rem;
+
+}
+
+button:hover{
+  background-color: white;
+  border-color: #E44332;
+  color: #E44332;
+}
+
+.tasklist {
+  /* border: 4px red solid; */
+  border-radius: 0.5rem;
+  padding: 0.5em;
+  width: 20rem;
+}
+
+.task {
+  height: 2em;
+  border-radius: 0.2rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 1.5rem;
+}
+
+p {
+  padding-left: 0.5em;
+}
+
+#tasklist-border {
+  border: 4px red solid;
+}
